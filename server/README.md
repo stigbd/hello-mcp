@@ -8,7 +8,14 @@ It uses the [stdio transport mechanism](https://modelcontextprotocol.io/docs/lea
 
 ```bash
 uv sync
-uv run server.py
+uv run weather.py
+```
+
+To stop the server, you need to kill it:
+
+```bash
+ps aux|grep "uv run weather.py # Get the process id (pid)
+kill -s TERM <pid>
 ```
 
 ## Reference
