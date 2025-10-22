@@ -2,6 +2,8 @@
 
 A simple MCP client that requests weather data.
 
+The client uses the [stdio transport mechanism](https://modelcontextprotocol.io/docs/learn/architecture#transport-layer).
+
 ## Run it
 
 ```bash
